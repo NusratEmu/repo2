@@ -1,0 +1,77 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.nav-link{
+    margin-left: 60px;
+    color: brown;
+    font-weight: 500;
+}
+.navbar-nav{
+    margin-right: 20px;
+}
+
+
+
+.carousel-item{
+    height:30vh;
+}
+
+
+.about{
+    margin-top:100px;
+}
+
+
+.p{
+    text-align: justify;
+}
+
+
+.carousel-inner{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.carousel{
+    position: relative;
+    height: 110vh;
+    width: 80vw;
+    margin-left: 10%;
+}
+
+.carousel-caption{
+    position: absolute;
+    left:75%;
+    top: 20%;
+    text-align: center;
+}
+
+.carousel-item::before{
+    content: ' ';
+    height:30vh;
+    width:100%;
+    display:block;
+    position: absolute;
+    top:0;
+    left:0;
+    
+}
+.btn{
+    background-color: rgb(114, 67, 4);
+    color: white;
+}
+
+.card-header{
+    background-color: rgb(176, 111, 25);
+}
+.section{
+    background-color: burlywood;
+}
+.card-img-top{
+    height: 230px;
+    width: 260px;
+}
+ 
